@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="UMLDiagramComponent">
+    <diagram name="UML">
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="at.fhv.minimudv3.map.MapController" />
+      <command command-class="de.frag.umlplugin.uml.command.ConnectClassesCommand" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="at.fhv.minimudv3.map.field.Field" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="at.fhv.minimudv3.map.field.IExecutable" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="at.fhv.minimudv3.map.field.IAccessible" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="at.fhv.minimudv3.game.player.Player" />
+      <command command-class="de.frag.umlplugin.uml.command.RemoveClassCommand" psi-class="at.fhv.minimudv3.map.MapController" />
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="at.fhv.minimudv3.map.MapController" />
+      <command command-class="de.frag.umlplugin.uml.command.ConnectClassesCommand" />
+      <compartment-visibility>
+        <show-methods class="at.fhv.minimudv3.game.player.Player" />
+        <show-methods class="at.fhv.minimudv3.map.field.IAccessible" />
+        <show-methods class="at.fhv.minimudv3.map.field.IExecutable" />
+        <show-methods class="at.fhv.minimudv3.map.MapController" />
+        <show-methods class="at.fhv.minimudv3.map.field.Field" />
+      </compartment-visibility>
+    </diagram>
+  </component>
+</project>

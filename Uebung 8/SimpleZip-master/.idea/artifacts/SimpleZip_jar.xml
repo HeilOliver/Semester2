@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SimpleZip:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SimpleZip_jar</output-path>
+    <root id="archive" name="SimpleZip.jar">
+      <element id="module-output" name="SimpleZip" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/kamranzafar/jtar/2.3/jtar-2.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
